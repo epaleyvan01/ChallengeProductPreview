@@ -1,0 +1,25 @@
+.btn{
+    background-color: $color-primary;
+    color: $color-white;
+    padding: .8vw 0;
+    border-radius: .5vw;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: .9vw;
+    .icon{
+        width: 15%;
+        margin: 0;
+        padding: 0;
+        @media (max-width: 1024px) and (min-width: 600px) {
+            width: 25%;
+        }
+    }
+    &:hover{
+        background-color: darken($color-primary, 10%);
+    }
+    @media (max-width: 599px) {
+        font-size: 3.5vw;
+        padding: 1.2vw 0;
+        border-radius: 1vw;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "challengeproductpreview",
+  "version": "1.0.0",
+  "description": "First challenge on FrontEnd Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch ./sass/main.scss:./assets/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epaleyvan01/ChallengeProductPreview.git"
+  },
+  "keywords": [
+    "Challenge",
+    "Test"
+  ],
+  "author": "Yvan Epale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epaleyvan01/ChallengeProductPreview/issues"
+  },
+  "homepage": "https://github.com/epaleyvan01/ChallengeProductPreview#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
